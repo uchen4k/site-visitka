@@ -1,3 +1,4 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 * {
     box-sizing: border-box;
     margin: 0;
@@ -129,9 +130,9 @@
 
 .about-subtitle-text {
     display: inline-block;
-    border-left: 1px solid #8C8C8C;
+    border-left: 1px solid #fff;
     padding: 8px 0 8px 20px;
-    color: #8C8C8C;
+    color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -140,7 +141,7 @@
 }
 
 .about-desc {
-    color: #d1d1d1;
+    color: #D1D1D1;
     max-width: 240px;
     font-size: 14px;
     line-height: 1.8;
@@ -191,3 +192,129 @@
     text-align: center;
     display: block;
 }
+
+.audio-holder {
+    width: 540px;
+}
+
+.audio-detail {
+    flex: 1;
+}
+
+.control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.audio-author {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.time {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.courses-section-title {
+    font-weight: 600;
+    font-size: 70px;
+    color: #1A1A1A;
+    margin: 60px 0;
+}
+
+.courses-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.card-big {
+    width: 540px;
+}
+
+.card-small {
+    width: 360px;
+}
+
+.img-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.img-card-1 {
+    background-image: url(/img/card-1.png);
+}
+
+.btn-time {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #111;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.btn-raiting {
+    width: 77px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.course-category {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #BABABA;
+    font-weight: 400;
+    margin: 18px 0;
+}
+
+.course-title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+
+.course-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+.img-card-2 {background-image: url(/img/card-2.png);}
+
+.img-card-3 {background-image: url(/img/card-3.png);}
+
+.img-card-4 {background-image: url(/img/card-4.png);}
